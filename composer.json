@@ -1,0 +1,25 @@
+{
+   "name": "amine/chuck-norris-jokes",
+   "description": "Create rendom Chuck Noriss jokes.",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "M-ed Amine Sahmoudi",
+         "email": "sahmoudi.medamine@gmail.com"
+      }
+   ],
+   "require": {},
+   "autoload": {
+      "psr-4": {
+         "AmineSah\\ChuckNorrisJokes\\": "src/"
+      }
+   },
+   "autoload-dev": {
+      "psr-4": {
+         "AmineSah\\ChuckNorrisJokes\\tests\\": "tests/"
+      }
+   },
+   "require-dev": {
+      "phpunit/phpunit": "^8.4"
+   }
+}
